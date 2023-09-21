@@ -1,4 +1,4 @@
-let mBlack = "#ac9b71";
+let mBgnd = "#dbcba7";
 
 let A = 100;
 let B = 10;
@@ -15,7 +15,7 @@ function draw() {
 
   translate(20, 20);
   stroke(0);
-  fill(mBlack);
+  fill(mBgnd);
   rect(0, 0, pWidth, pHeight);
 
   fill(0);
@@ -35,7 +35,6 @@ function draw() {
 
   translate(A + B, 0);
   rect(0, 0, 3 * A + 2 * B, A);
-  
 
   // second row
   translate(-2 * (A + B), A + B);
